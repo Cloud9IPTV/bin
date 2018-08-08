@@ -1,0 +1,16 @@
+#EXTM3U
+#EXT-X-VERSION:7
+#EXT-X-SESSION-KEY:METHOD=SAMPLE-AES,URI="skd://live/ctvnews/p/hls/0b000201/56879082ed36b9d3/index/9addb8e8/live/drm",KEYFORMAT="com.apple.streamingkeydelivery",KEYFORMATVERSIONS="1"
+#EXT-X-MEDIA:TYPE=AUDIO,GROUP-ID="aac/96000",NAME="English",URI="https://pe-ak-lp02a-9c9media.akamaized.net/live/ctvnews/p/hls/0b000201/56879082ed36b9d3/index/9addb8e8/live/stream/aac/v2/96000/manifest.m3u8",LANGUAGE="en",DEFAULT=YES,AUTOSELECT=YES
+#EXT-X-STREAM-INF:BANDWIDTH=192000,AVERAGE-BANDWIDTH=192000,CODECS="avc1.42c01e,mp4a.40.2",AUDIO="aac/96000",RESOLUTION=416x234
+https://pe-ak-lp02a-9c9media.akamaized.net/live/ctvnews/p/hls/0b000201/56879082ed36b9d3/index/9addb8e8/live/stream/h264/v1/192000/manifest.m3u8
+#EXT-X-STREAM-INF:BANDWIDTH=640000,AVERAGE-BANDWIDTH=640000,CODECS="avc1.4d401f,mp4a.40.2",AUDIO="aac/96000",RESOLUTION=640x360
+https://pe-ak-lp02a-9c9media.akamaized.net/live/ctvnews/p/hls/0b000201/56879082ed36b9d3/index/9addb8e8/live/stream/h264/v1/640000/manifest.m3u8
+#EXT-X-STREAM-INF:BANDWIDTH=2048000,AVERAGE-BANDWIDTH=2048000,CODECS="avc1.4d401f,mp4a.40.2",AUDIO="aac/96000",RESOLUTION=1024x576
+https://pe-ak-lp02a-9c9media.akamaized.net/live/ctvnews/p/hls/0b000201/56879082ed36b9d3/index/9addb8e8/live/stream/h264/v1/2048000/manifest.m3u8
+#EXT-X-STREAM-INF:BANDWIDTH=3500000,AVERAGE-BANDWIDTH=3500000,CODECS="avc1.640029,mp4a.40.2",AUDIO="aac/96000",RESOLUTION=1280x720
+https://pe-ak-lp02a-9c9media.akamaized.net/live/ctvnews/p/hls/0b000201/56879082ed36b9d3/index/9addb8e8/live/stream/h264/v1/3500000/manifest.m3u8
+#EXT-X-I-FRAME-STREAM-INF:BANDWIDTH=19200,AVERAGE-BANDWIDTH=19200,CODECS="avc1.42c01e",RESOLUTION=416x234,URI="https://pe-ak-lp02a-9c9media.akamaized.net/live/ctvnews/p/hls/0b000201/56879082ed36b9d3/index/9addb8e8/live/stream/h264(iframe)/v1/192000/manifest.m3u8"
+#EXT-X-I-FRAME-STREAM-INF:BANDWIDTH=64000,AVERAGE-BANDWIDTH=64000,CODECS="avc1.4d401f",RESOLUTION=640x360,URI="https://pe-ak-lp02a-9c9media.akamaized.net/live/ctvnews/p/hls/0b000201/56879082ed36b9d3/index/9addb8e8/live/stream/h264(iframe)/v1/640000/manifest.m3u8"
+#EXT-X-I-FRAME-STREAM-INF:BANDWIDTH=204800,AVERAGE-BANDWIDTH=204800,CODECS="avc1.4d401f",RESOLUTION=1024x576,URI="https://pe-ak-lp02a-9c9media.akamaized.net/live/ctvnews/p/hls/0b000201/56879082ed36b9d3/index/9addb8e8/live/stream/h264(iframe)/v1/2048000/manifest.m3u8"
+#EXT-X-I-FRAME-STREAM-INF:BANDWIDTH=350000,AVERAGE-BANDWIDTH=350000,CODECS="avc1.640029",RESOLUTION=1280x720,URI="https://pe-ak-lp02a-9c9media.akamaized.net/live/ctvnews/p/hls/0b000201/56879082ed36b9d3/index/9addb8e8/live/stream/h264(iframe)/v1/3500000/manifest.m3u8"
